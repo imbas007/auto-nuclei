@@ -22,8 +22,8 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 run the following command:
 
 ```console
-git clone https://github.com/imbas007/auto-sqlmap.git
-cd auto-sqlmap
+git clone https://github.com/imbas007/auto-nuclei.git
+cd auto-nuclei
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ cd auto-sqlmap
 simply run the following command:
 
 ```
-python3  auto-sql.py
+python3 scan.py domain.com
 ```
 
 <p align="center">
